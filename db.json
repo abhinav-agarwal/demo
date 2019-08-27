@@ -1,14 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "eiamid": "test.agent@test.com",
+    "firstname": "Test",
+    "middlename": "Agent",
+    "lastname": "Advisor",
+    "address1": "806 North Lane",
+    "address2": "Brooklyn, NY 11237",
+    "city": "Brooklyn",
+    "state": "New York",
+    "zipcode": "11237",
+    "country": "United States",
+    "phonereg": "9999999999",
+    "emailaddressreg": "test@test.com",
+    "status": "Active",
+    "usertype": "Agent",
+    "firmcode[]": "mockdata",
+    "nipr": {
+        "pmcontacttype": "mockdata",
+        "firmname": "mockdata",
+        "firmcd": {
+            "productshortname": {
+                "mockdata": "mockdata",
+                "firmcd": "mockdata",
+                "channel": "mockdata",
+                "firmedeliverypreference": {
+                    "edelivery": "mockdata",
+                    "lob": "mockdata"
+                }
+            }
+        }
+    },
+"firmedeliverypreference" : "ALL",
+"edeliverylob" : "mockdata",
+"upid" : "123456789",
+"ssn" : "mockdata",
+"advisoredeliverypreference" : "ALL",
+"advisoredeliverypreferencefirmcode" : "12345",
+"stateofbusiness" : "NY",
+"statebusinessconsent" : "Y",
+"statebusinessconsentsignature" : "full name",
+"statebusinessconsentdate" : "01/31/2019",
+"econsent" : "Y",
+"econsentdate" : "01/31/2019",
+"aemaccessstatus" : "Active",
+"suppressallemail" : "true"
 }
